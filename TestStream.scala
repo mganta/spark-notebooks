@@ -6,6 +6,8 @@ import org.apache.spark.sql.types._
 
 val schema = new StructType().add("symbol", StringType).add("timestamp", TimestampType).add("bid_price", FloatType).add("trade_type", StringType).add("order_quantity", IntegerType)
 
+//test
+
 // COMMAND ----------
 
  val df = spark.readStream
