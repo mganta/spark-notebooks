@@ -8,7 +8,7 @@ val schema = new StructType().add("symbol", StringType).add("timestamp", Timesta
 
 val eventhubParameters = Map[String, String] (
       "eventhubs.policyname" -> "RootManageSharedAccessKey",
-      "eventhubs.policykey" -> "5G1sbDLYSJttMGWMTAiJjeFGRE53AlXcREGGseq1Xy4=",
+      "eventhubs.policykey" -> "5G1sasdfwe23142=",
       "eventhubs.namespace" -> "spearfishstream",
       "eventhubs.name" -> "stockstream",
       "eventhubs.partition.count" -> "2",
